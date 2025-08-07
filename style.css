@@ -119,10 +119,11 @@ body{
 .benefit-card .abt-img{
     font-weight: 600;
 }
-.benefit-card p{
+.benefit-card .p{
     padding-left: 5vh;
     padding-right: 5vh;
     font-size: 3vh;
+    text-align:center;
 }
 
 .testi{
@@ -163,8 +164,8 @@ body{
 {
 
     .logo img{
-    height: 7vh;
-    width: 7vh;
+    height: 6vw;
+    width: 6vw;
     }
 
     .logo h2{
@@ -172,17 +173,32 @@ body{
     font-size: 3vh;
     }
 
+    .intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:0vh;
+    }
+
+    .intro-heading{
+    padding: 2vh;
+   display: flex;
+    flex-direction: column; 
+    gap:2vh;
+
+    }
+
     .intro .intro-image img{
-    height: 30vh;
-    width:30vw;
+    height: 10vh;
+    width:15vw;
     }
 
     .intro-heading h1{
-    font-size: 4vh;
+    font-size: 6vw;
      }
 
      .intro-heading p{
-    font-size: 2vh;
+    font-size: 3.5vw;
     }
 
     .intro-heading .book-btn button{
@@ -193,8 +209,17 @@ body{
     color:#fff;
     height: 4vh;
     width: 18vw;
-    font-size: 1.8vh;
+    font-size: 1vh;
     }
+
+    .about {
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center; */
+
+}
 
     .about .about-heading{
     font-size: 3vh;
@@ -202,9 +227,14 @@ body{
     }
 
     .about .about-content{
-    font-size: 1.85vh;
+    font-size: 3.5vw;
      }
 
+    .benefits{
+    padding:2vh;
+    display: flex;
+    flex-direction: column;
+    }
 
     .benefits .benefit-heading {
     padding: 1vw;
@@ -213,24 +243,35 @@ body{
 
    }
 
+   .benefit-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:8vw;
+}
+
    .benefit-card{
     padding: 0.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 3vw;
+    padding-left: 3vw;
     }
 
    .benefit-card img{
     height: 8vh;
+    width:8vh;
     }
 
     .benefit-card .abt-img{
     font-weight: 600;
     }
-    .benefit-card p{
+    .benefit-card .p{
     padding-left: 0vh;
     padding-right: 0vh;
-    font-size: 2vh;
+    font-size: 3vw;
+    text-align:center;
     }
 
     .testi{
@@ -240,31 +281,32 @@ body{
     }
 
     .testi .testi-heading{
-    padding: 1vh;
+    
     font-size: 3vh;
     font-weight: bold;
     }
 
     .testi p{
-    font-size: 2vh;
+    font-size: 3vw;
     }
 
     .faqs{
-    padding: 2vh;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    
 }
+
 .faqs .faq-head{
-    padding: 2vh;
     font-size: 3vh;
     font-weight: bold;
+    padding-bottom: 1vw;
 }
 .faqs .faq{
-    font-size: 2vh;
+    font-size: 3.5vw;
     display: flex;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3.5vw;
 }
 
 }
