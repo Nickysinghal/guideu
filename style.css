@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(250, 249, 249);
+}
+.card{
+    margin:10vh 5vw;
+    padding:3vh;
+    border: 0.5vh solid #e8e8e766;
+    border-radius: 1dvh;
+    background-color: #fff;
+    /* height: 90vh;
+    width:90vw; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 12vh;
+    width: 12vh;
+    
+}
+.logo h2{
+    font-family: cursive;
+    font-size: 4vh;
+
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:5vh;
+}
+.intro-heading{
+    padding: 4vh;
+   display: flex;
+    flex-direction: column; 
+    gap:2vh;
+
+}
+.intro-heading h1{
+    font-size: 8vh;
+}
+
+.intro-heading p{
+    font-size: 4vh;
+}
+.intro .intro-image img{
+    height: 30vh;
+    width:20vw;
+}
+
+
+.intro-heading .book-btn button{
+    padding: 2vh;
+    border-radius: 1vh;
+    border: 0vh solid;
+    background: #1e76e8;
+    color:#fff;
+    height: 8vh;
+    width: 18vw;
+    font-size: 3vh;
+}
+
+.about {
+    padding: 3.5vh;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    /* justify-content: center; */
+
+}
+
+.about .about-heading{
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.about .about-content{
+    font-size: 3.5vh;
+}
+
+.benefits{
+    padding:2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits .benefit-heading {
+    font-size: 6vh;
+    font-weight: bold;
+
+}
+
+.benefit-cards{
+    display: flex;
+    justify-content: space-around;
+    gap:7vh;
+}
+
+.benefit-card{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit-card img{
+    height: 15vh;
+}
+
+.benefit-card .abt-img{
+    font-weight: 600;
+}
+.benefit-card p{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 3vh;
+}
+
+.testi{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.testi .testi-heading{
+    padding: vh;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.testi p{
+    font-size: 3.5vh;
+}
+
+.faqs{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.faqs .faq-head{
+    padding: 2vh;
+    font-size: 6vh;
+    font-weight: bold;
+}
+.faqs .faq{
+    font-size: 3.5vh;
+    display: flex;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+@media (orientation: portrait)
+{
+
+    .logo img{
+    height: 7vh;
+    width: 7vh;
+    }
+
+    .logo h2{
+    font-family: cursive;
+    font-size: 3vh;
+    }
+
+    .intro .intro-image img{
+    height: 30vh;
+    width:30vw;
+    }
+
+    .intro-heading h1{
+    font-size: 4vh;
+     }
+
+     .intro-heading p{
+    font-size: 2vh;
+    }
+
+    .intro-heading .book-btn button{
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border: 0vh solid;
+    background: #1e76e8;
+    color:#fff;
+    height: 4vh;
+    width: 18vw;
+    font-size: 1.8vh;
+    }
+
+    .about .about-heading{
+    font-size: 3vh;
+    font-weight: bold;
+    }
+
+    .about .about-content{
+    font-size: 1.85vh;
+     }
+
+
+    .benefits .benefit-heading {
+    padding: 1vw;
+    font-size: 3vh;
+    font-weight: bold;
+
+   }
+
+   .benefit-card{
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+   .benefit-card img{
+    height: 8vh;
+    }
+
+    .benefit-card .abt-img{
+    font-weight: 600;
+    }
+    .benefit-card p{
+    padding-left: 0vh;
+    padding-right: 0vh;
+    font-size: 2vh;
+    }
+
+    .testi{
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .testi .testi-heading{
+    padding: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+    }
+
+    .testi p{
+    font-size: 2vh;
+    }
+
+    .faqs{
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.faqs .faq-head{
+    padding: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.faqs .faq{
+    font-size: 2vh;
+    display: flex;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+}
+
